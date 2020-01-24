@@ -5,4 +5,4 @@ class OnlineQuizConfig(AppConfig):
     name = 'online_quiz'
 
     def ready(self):
-        from online_quiz import signals
+        import online_quiz.signals
